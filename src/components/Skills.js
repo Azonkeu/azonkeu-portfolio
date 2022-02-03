@@ -19,7 +19,7 @@ const Skills = () => {
   margin: 0.5rem auto 1.5rem auto;
 `;
   return (
-    <section id="skills" style={{ backgroundColor: "#0a192f" }}>
+    <section id="skills" style={{ backgroundColor: "#0a192f", maxWidth: '100%' }}>
       <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-20" style={{ marginTop: '7%'}}>
           <ChipIcon className="w-10 inline-block mb-4" style={{ color: "purple" }} />
@@ -33,8 +33,8 @@ const Skills = () => {
           </p>
         </div>
 
-        <div style={{display: 'flex', flexDirection: 'row', minWidth: '100%'}}>
-          <div style={{display: 'flex', flexDirection: 'column', width: '32%'}}>
+        <div id="ski" className="lg:flex-row md:flex-row lg:mt-0 md:mt-0 flex flex-col mt-8" style={{ display: 'flex', maxWidth: '100%'}}>
+          <div className="lg:w-2/5 md:w-2/5 w-full" style={{display: 'flex', flexDirection: 'column'}}>
            <DiReact size="3rem" color="white" style={{alignSelf: 'center'}}/>
            <h3 style={{alignSelf: 'center', color: 'white'}}>Front-End</h3>
           {skills.map((skill) => (
@@ -49,7 +49,7 @@ const Skills = () => {
           ))}
         </div>
 
-         <div style={{display: 'flex', flexDirection: 'column', width: '27%'}}>
+         <div className="lg:w-2/5 md:w-2/5 w-full lg:mt-0 md:mt-0 flex flex-col mt-8" style={{display: 'flex', flexDirection: 'column'}}>
            <DiFirebase size="3rem" color="white" style={{alignSelf: 'center'}}/>
            <h3 style={{alignSelf: 'center', color: 'white'}}>Back-End</h3>
           {backend.map((skill) => (
@@ -63,7 +63,7 @@ const Skills = () => {
             </div>
           ))}
         </div>
-         <div style={{display: 'flex', flexDirection: 'column', width: '39%'}}>
+          <div className="lg:w-2/5 md:w-2/5 w-full lg:mt-0 md:mt-0 flex flex-col mt-8" style={{display: 'flex', flexDirection: 'column'}}>
            <DiZend size="3rem" color="white" style={{alignSelf: 'center'}}/>
            <h3 style={{alignSelf: 'center', color: 'white'}}>Tools & Methods</h3>
           {tools.map((skill) => (

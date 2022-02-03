@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const SectionTitle = styled.h2 `
-  font-weight: 800;
+  font-weight: 3.5em;
   font-size: 2.6em;
   line-height: 72px;
   width: max-content;
@@ -11,7 +11,7 @@ export const SectionTitle = styled.h2 `
   -webkit-text-fill-color: transparent;
   margin-bottom: 16px;
   padding: 6% 0 3%';
-   @media only screen (max-width: 600px)(min-width: 320px){
+   @media screen and (max-width: 600px) and (min-width: 320px){
     font-size: 32px;
     line-height: 40px;
     font-size: 1.3em;
@@ -26,38 +26,37 @@ export const Section = styled.div `
   display: flex;
   flex-direction: row;
   padding: 0;
-  margin: 4% 3% 4% 3%;
-  max-width: 100%;
+  margin: 4% auto 4% auto;
+  width: 100%;
   box-sizing: content-box;
-  position: relative;
   overflow: hidden;
-  @media only screen (max-width: 600px)(min-width: 320px) {
+  @media screen and (max-width: 600px) and (min-width: 320px) {
     padding: 24px 48px 0;
     flex-direction: column;
   }
 `;
 
 export const SectionDivider = styled.div`
-  width: 64px;
+  width: 30%;
   height: 6px;
   border-radius: 10px;
   background-color: #fff;
   background: linear-gradient(270deg, #F46737 0%, #945DD6 100%)'
-  @media only screen (max-width: 600px)(min-width: 320px) {
-    width: 48px;
+  @media screen and (max-width: 600px) and (min-width: 320px) {
+    width: 20%;
     height: 4px;
   }
 `;
 
 
 export const SectionText = styled.p`
-  max-width: 800px;
+  max-width: 90%;
   font-size: 24px;
   line-height: 40px;
   font-weight: 300;
   padding-bottom: 3.6rem;
   color: rgba(255, 255, 255, 0.5);
-  @media only screen (max-width: 600px)(min-width: 320px){
+  @media screen and (max-width: 600px) and (min-width: 320px){
     font-size: 1.1em;
     line-height: 24px;
     padding-bottom: 2%;
@@ -65,12 +64,12 @@ export const SectionText = styled.p`
 `;
 
 export const SectionSubText = styled.p`
-  max-width: 800px;
+  max-width: 90%;
   font-weight: 300;
   font-size: 18px;
   line-height: 32px;
   color: rgba(255, 255, 255, 0.75);
-   @media only screen (max-width: 600px)(min-width: 320px){
+   @media screen and (max-width: 600px) and (min-width: 320px){
     font-size: 1.1em;
     line-height: 22px;
   }
@@ -104,7 +103,7 @@ export const SecondaryBtn = styled.button`
     border: 1px solid #304169;
     box-shadow: inset 0px 2px 1px rgba(46, 49, 55, 0.15), inset 0px 0px 4px rgba(20, 20, 55, 0.3);
   }
-   @media only screen (max-width: 600px)(min-width: 320px){
+   @media screen and (max-width: 600px)and (min-width: 320px){
     margin-top: 16px;
     margin-bottom: 40px;
     padding: 8px 16px;
@@ -131,7 +130,7 @@ export const ButtonBack = styled.div`
   position: relative;
   overflow: hidden;
   opacity: .5;
- @media only screen (max-width: 600px)(min-width: 320px){
+ @media screen and (max-width: 600px)and (min-width: 320px){
     width: 100%;
     height: 32px;
     font-size: 14px;
@@ -173,7 +172,7 @@ export const ButtonFront = styled.button`
     opacity: 0.5;
     box-shadow: inset 0px 2px 1px rgba(46, 49, 55, 0.15), inset 0px 0px 4px rgba(20, 20, 55, 0.3);
   }
-   @media only screen (max-width: 600px)(min-width: 320px){
+   @media screen and (max-width: 600px) and (min-width: 320px){
     font-size: 1.1em;
   }
 `;
@@ -190,7 +189,7 @@ export const LinkContainer = styled.div`
     cursor: pointer;
   }
   }
- @media only screen (max-width: 600px)(min-width: 320px){
+ @media screen and (max-width: 600px) and (min-width: 320px){
     margin-left: 4%;
   }
 `;
@@ -198,7 +197,7 @@ export const LinkContainer = styled.div`
 export const LinkIconImg = styled.div`
   display: flex;  
   height:  10rem;
-  @media only screen (max-width: 600px)(min-width: 320px){
+  @media screen and (max-width: 600px) and (min-width: 320px){
     height: 8rem ;
   }
 `;

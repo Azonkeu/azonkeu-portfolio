@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const CarouselContainer = styled.ul`
-  width: 100%;
+  max-width: 100%;
   background: #0a192f;
   padding: 0rem;
   list-style:none;
@@ -18,30 +18,31 @@ export const CarouselContainer = styled.ul`
    &::-webkit-scrollbar {
      display: none;
    }
-  @media only screen (max-width: 600px)(min-width: 320px){
-    overflow-x: scroll;
-    -webkit-overflow-scrolling: touch;
-    scroll-snap-type: x mandatory;
-    touch-action: pan-x;
-    justify-content: initial;
-    margin-bottom: 8px;
-  }
+//   @media screen and (max-width: 600px) and (min-width: 320px){
+//     overflow-x: hidden;
+//     -webkit-overflow-scrolling: touch;
+//     scroll-snap-type: x mandatory;
+//     touch-action: pan-x;
+//     justify-content: initial;
+//     margin-bottom: 8px;
+// 	flex-dirction: 'column';
+//   }
 `;
 
 export const CarouselMobileScrollNode = styled.div`
-   @media only screen (max-width: 600px)(min-width: 320px){
+   @media screen and (max-width: 600px) and (min-width: 320px){
     display: flex;
-    width: 100%;
+    max-width: 100%;
   }
 `;
 
 export const CarouselItem = styled.div`
   background: #0a192f;
   border-radius: 3px;
-  max-width: 196px;
-  @media only screen (max-width: 600px)(min-width: 320px){
+  max-width: 60%;
+  @media screen and (max-width: 600px) and (min-width: 320px){
     margin-left: 32px;
-    min-width: 120px;
+    min-width: 40%;
     background: #0E131F;
     padding: 4px;
     align-content: start;
@@ -64,7 +65,7 @@ export const CarouselItemTitle = styled.h4`
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 8px;
-   @media only screen (max-width: 600px)(min-width: 320px){
+   @media screen and (max-width: 600px) and (min-width: 320px){
     font-size: 1.1em;
     line-height: 28px;
     margin-bottom: 4px;
@@ -74,8 +75,8 @@ export const CarouselItemTitle = styled.h4`
 export const CarouselItemImg = styled.svg`
   margin-left: 21px;
   -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
-  width: 100%;
-  @media only screen (max-width: 600px)(min-width: 320px){
+  max-width: 100%;
+  @media screen and (max-width: 600px) and (min-width: 320px){
     -webkit-mask-image: none;
     margin-left: 16px;
     overflow: visible;
@@ -88,7 +89,7 @@ export const CarouselItemText = styled.p`
   letter-spacing: 0.02em;
   color: rgba(255, 255, 255, 0.75);
   padding-right: 16px;
-   @media only screen (max-width: 600px)(min-width: 320px){
+   @media screen and (max-width: 600px) and (min-width: 320px){
     font-size: 0.7em;
     line-height: 18px;
     padding-right: 4%;
@@ -96,10 +97,10 @@ export const CarouselItemText = styled.p`
 `;
 
 export const CarouselButtons = styled.div`
-  width: 288px;
+  max-width: 70%;
   display: none;
   visibility: hidden;
-   @media only screen (max-width: 600px)(min-width: 320px){
+   @media screen and (max-width: 600px) and (min-width: 320px){
     display: flex;
     visibility: visible;
     margin-bottom: 5%;
@@ -124,6 +125,6 @@ export const CarouselButtonDot = styled.div`
   background-color: white;
   border-radius: 10px;
   margin: auto;
-  width: 3px;
+  width: 2%;
   height: 3px;
 `;

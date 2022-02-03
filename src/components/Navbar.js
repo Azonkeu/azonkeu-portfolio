@@ -21,7 +21,7 @@ const Navbar = () => {
   }
 `;
   return (
-    <header className="md:sticky top-0 z-10" style={{ backgroundColor: "#0a192f" }}>
+    <header className="md:sticky top-0 z-10" style={{ backgroundColor: "#0a192f", maxWidth: '100%' }}>
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a  href="#about" className="flex title-font font-medium text-white mb-4 md:mb-0">
           <DiCssdeck size="2rem" /> 

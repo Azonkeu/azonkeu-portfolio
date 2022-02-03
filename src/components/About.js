@@ -4,10 +4,10 @@ import { SectionTitle } from './GlobalComponents';
 
 const About = () => {
   return (
-    <section id="about" style={{ backgroundColor: "#0a192f" }}>
-      <div className="container mx-auto flex px-10 md:flex-row flex-col items-center">
-        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-0 md:mb-0 items-center text-center">
-           <SectionTitle style={{ marginLeft: '0', marginRight: 'auto', fontSize: '3em'}}>
+    <section id="about" className="pt-16" style={{ backgroundColor: "#0a192f", maxWidth: '100%' }}>
+      <div className="container mx-auto flex px-10 md:flex-row flex-col items-center" style={{ maxWidth: '100%' }}>
+        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-0 md:mb-0 items-center text-center" style={{ maxWidth: '100%' }}>
+           <SectionTitle style={{ marginLeft: '0', marginRight: 'auto', fontSize: '3em' }}>
              Welcome To
             <br />
             My Personal Portfolio

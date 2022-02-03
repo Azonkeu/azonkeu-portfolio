@@ -15,7 +15,7 @@ import {
 import {
   Section,
   SectionDivider,
-  SectionTitle
+  SectionTitle,
 } from './GlobalComponents';
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
@@ -59,11 +59,11 @@ const Timeline = () => {
   margin: 0.4rem auto 6rem auto;
 `;
   return (
-	<div style={{ backgroundColor: "#0a192f", padding: '4%'}}>
+	<div style={{ backgroundColor: "#0a192f", padding: '4%', maxWidth: '100%'}}>
 	  <SectionTitle style={{ marginLeft: 'auto', marginRight: 'auto', paddingTop: '6%'}}>Experience</SectionTitle>
 	 <Divider />
 	 <Section id="about">
-    <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
+    <CarouselContainer ref={carouselRef} onScroll={handleScroll} className="lg:flex-row md:flex-row flex flex-col text-white text-center w-full items-center">
         <>
           {TimeLineData.map((item, index) => (
             <CarouselMobileScrollNode
@@ -75,6 +75,7 @@ const Timeline = () => {
                 id={`carousel__item-${index}`}
                 active={activeItem}
                 onClick={(e) => handleClick(e, index)}
+				className="mt-4 w-full mr-0"
               >
                 <CarouselItemTitle>
                   {`${item.year}`}
@@ -92,7 +93,7 @@ const Timeline = () => {
                       fill="url(#paint0_linear)"
                       fillOpacity="0.33"
                     />
-                    <defs>
+                    <defs >
                       <linearGradient
                         id="paint0_linear"
                         x1="-4.30412e-10"
@@ -129,9 +130,9 @@ const Timeline = () => {
             <CarouselButtonDot active={activeItem} />
           </CarouselButton>
         ))}
-        ;
+        
       </CarouselButtons>
-      <SectionDivider />
+	  <SectionDivider />
     </Section>
   </div>
   );

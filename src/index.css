@@ -10,9 +10,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  max-width: 100%;
 }
-@media screen {
-  
+
+header {
+  max-width: 100%;
+}
+
+section {
+  max-width: 100%;
+}
+@media screen and (max-width: 600px) and (min-width: 320px) {
+ #ski {
+   display: none;
+ }
 }
 
 code {

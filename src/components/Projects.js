@@ -27,21 +27,21 @@ const Projects = () => {
   margin: 0.5rem auto 1.5rem auto;
 `;
   return (
-    <section id="projects" className="text-gray-400 bg-gray-900 body-font" style={{ backgroundColor: "#0a192f" }}>
+    <section id="projects" className="text-gray-400 bg-gray-900 body-font" style={{ backgroundColor: "#0a192f", maxWidth: '100%' }}>
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
           <CodeIcon className="mx-auto inline-block w-10 mb-4" />
               <SectionTitle style={{ marginLeft: 'auto', marginRight: 'auto'}}>Some Apps I've Built</SectionTitle>
           <Divider />
         </div>
-        <div className="flex flex-wrap -m-4">
+        <div className="lg:grid-cols-2 md:grid-cols-2 lg:w-full md:w-full grid grid-cols-1 justify-center">
           {projects.map((project) => (
             <div
              
               key={project.image}
-              className="sm:w-1/2 w-100 p-4"> 
+              className="lg:w-full md:w-full sm:w-1/2 w-100 p-4"> 
               
-                <div className="px-5 py-8 w-full border-4 border-gray-800 bg-gray-900" style={{ width: '80%'}}>
+                <div className="lg:w-full px-5 py-8 w-full border-4 border-gray-800 bg-gray-900 mx-auto mr-auto" style={{ }}>
                   <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
                     {project.subtitle}
                   </h2>
@@ -57,7 +57,7 @@ const Projects = () => {
                   <p className="leading-relaxed">{project.description}</p>
                    <h3 style={{ marginTop: '1.5rem', color: 'yellow', fontSize: '1.2em', fontWeight: 'bold', marginBottom: '2%' }}>Stack</h3>
                   <div>{project.tags.map((t) => (
-                <button key={t} style={{ marginLeft: '2%', marginRight: '4%', backgroundColor: 'purple', color: 'white', fontWeight: 'bold', padding: '2%', borderRadius: '10px'}}>{t}</button>
+                <button key={t} style={{ marginLeft: '2%', marginRight: '4%', marginTop: '3%', marginBottom: '2%', backgroundColor: 'transparent', color: 'white', fontWeight: '500', padding: '2%', outline: '1px solid white'}}>{t}</button>
               ))}
               <div style={{ marginTop: '7%', width: '100%', display: 'flex'}}>
                 <a href={project.visit} style={{ marginLeft: '2%', width: '20%', marginRight: '2%', color: 'white', padding: '1%', textDecoration: 'underline', alignSelf:'self-end'}}>Live</a>

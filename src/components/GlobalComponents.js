@@ -37,7 +37,7 @@ export const Section = styled.div `
 `;
 
 export const SectionDivider = styled.div`
-  width: 30%;
+  width: 5%;
   height: 6px;
   border-radius: 10px;
   background-color: #fff;

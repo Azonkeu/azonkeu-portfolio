@@ -49,16 +49,16 @@ export const testimonials = [
   {
     quote:
       "Ornela Azonkeu is a talented and inspiring person. We have worked together on countless projects and have grown to like her work spirit and her dedication. She is ready to learn and also teach others. She is a mentor to many besides being a good programmer. Her communication skills are top-notch and relates amicably and professionally with anyone. She would be an amazing team member to have on any project.",
-    image: "https://media-exp1.licdn.com/dms/image/D4E35AQFtKjmT0ngphA/profile-framedphoto-shrink_200_200/0/1643386476562?e=1643900400&v=beta&t=vdd0dQEIc8M9nAErT6I1RPAf5PR51rLXUvwws5G0aYI",
+    image: "https://media-exp1.licdn.com/dms/image/D4E35AQFtKjmT0ngphA/profile-framedphoto-shrink_200_200/0/1643386476562?e=1644325200&v=beta&t=4Y3XNQNR19u71NqFzwLCI3XLQqyZ5foX0f11kfMcjuw",
     name: "Affaxed Kiprotich",
     company: "Microverse",
     id: 0,
   },
   {
     quote:
-      "Azonkeu is a fantastic software engineer, and her detail-oriented approach made her a pleasure to work with. We pair-programmed extensively together while enrolled on a software development program, and in that time her work ethic blew me away. She's also genuinely a kind, encouraging person and kept me from falling into bug blues multiple times.",
-    image: "https://media-exp1.licdn.com/dms/image/C4E03AQGQpdmHMqNBSA/profile-displayphoto-shrink_200_200/0/1638726092570?e=1649289600&v=beta&t=WBAxLiSmIM6BFz_6bQ8dMz5ADaOAqN6SUBzjEvqXcsw",
-    name: "Arina Rodina",
+      "Professional, excellent communicator, sincerely interested in the well being and growth of her colleagues; This is the Ornela Azonkeu that I have grown to know through her stellar mentorship at Microverse, an international remote school that teaches software engineering through peer-programming and project based learning. Going above and beyond what is required as a mentor in Software Development, is innately ingrained in her fabric. Any team privileged to have Ornela as a member is certain to prosper and benefit from her depth of knowledge in Software Engineering industry best practices.",
+    image: "https://media-exp1.licdn.com/dms/image/C5603AQE8KwlWPMRdpQ/profile-displayphoto-shrink_200_200/0/1634327872772?e=1649894400&v=beta&t=9ZgPF_daVZOYw9LbL-JdaMjUMMKuS6DJ0hzK-0PonKk",
+    name: "Steve W Dames Jr",
     company: "Microverse",
     id: 1,
   },

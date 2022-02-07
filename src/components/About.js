@@ -24,9 +24,9 @@ const About = () => {
               Work With Me
             </a>
             <a
-              href="#projects"
+              href="http://www.keepandshare.com/doc19/view.php?id=38146&da=y" target="_blank"
               className="ml-4 inline-flex text-white-600 bg-purple-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-              Check out my projects
+              My Resume
             </a>
           </div>
           

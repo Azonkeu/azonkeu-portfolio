@@ -14,7 +14,7 @@ const Testimonials = () => {
   margin: 0.5rem auto 1.8rem auto;
 `;
   return (
-    <section id="testimonials" style={{ backgroundColor: "#0a192f", maxWidth: '100%' }}>
+    <section id="testimonials" className="container" style={{ backgroundColor: "#0a192f", maxWidth: '100%' }}>
       <div className="container px-5 py-10 mx-auto text-center">
         <UsersIcon className="w-10 inline-block mb-4" style={{ color: "#fff", marginTop: '4%' }} />
         <SectionTitle style={{ marginLeft: 'auto', marginRight: 'auto'}}>Client Testimonials</SectionTitle>

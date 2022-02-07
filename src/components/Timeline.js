@@ -59,11 +59,11 @@ const Timeline = () => {
   margin: 0.4rem auto 6rem auto;
 `;
   return (
-	<div style={{ backgroundColor: "#0a192f", padding: '4%', maxWidth: '100%'}}>
+	<div className="container" style={{ backgroundColor: "#0a192f", padding: '4%', maxWidth: '100%'}}>
 	  <SectionTitle style={{ marginLeft: 'auto', marginRight: 'auto', paddingTop: '6%'}}>Experience</SectionTitle>
 	 <Divider />
 	 <Section id="about">
-    <CarouselContainer ref={carouselRef} onScroll={handleScroll} className="lg:flex-row md:flex-row flex flex-col text-white text-center w-full items-center">
+    <CarouselContainer ref={carouselRef} onScroll={handleScroll} className="container lg:flex-row md:flex-row flex flex-col text-white text-center w-full items-center">
         <>
           {TimeLineData.map((item, index) => (
             <CarouselMobileScrollNode
@@ -132,7 +132,7 @@ const Timeline = () => {
         ))}
         
       </CarouselButtons>
-	  <SectionDivider />
+	  <SectionDivider className="lg:w-1"/>
     </Section>
   </div>
   );

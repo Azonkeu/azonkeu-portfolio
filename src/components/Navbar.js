@@ -23,10 +23,10 @@ const Navbar = () => {
   return (
     <header className="md:sticky top-0 z-10" style={{ backgroundColor: "#0a192f", maxWidth: '100%' }}>
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <a  href="#about" className="flex title-font font-medium text-white mb-4 md:mb-0">
+        <a href="#about" className="flex title-font font-medium text-white mb-4 md:mb-0">
           <DiCssdeck size="2rem" /> 
-		  <p className="ml-1 text-xl">
-           Azonkeu Ornela
+		      <p className="ml-1 text-xl">
+            Azonkeu Ornela
           </p>
         </a>
         <nav className="md:mr-auto md:ml-5 md:py-1 md:pl-5 md:border-l text-white md:border-gray-700	flex flex-wrap items-center text-base justify-center">
@@ -40,7 +40,7 @@ const Navbar = () => {
             Testimonials
           </a>
         </nav>
-		<div className="inline-flex">
+		    <div className="inline-flex">
           <SocialIcons href="https://github.com/Azonkeu">
             <AiFillGithub size="1.8rem" color="white" />
           </SocialIcons>
@@ -50,7 +50,7 @@ const Navbar = () => {
           <SocialIcons href="https://www.instagram.com/ornela9238/">
             <AiFillInstagram size="1.8rem" color="white"/>
           </SocialIcons>
-		</div>
+		    </div>
         <a
           href="#contact"
           className="inline-flex items-center md:ml-5 bg-gray-800 border-0 py-1 px-3 text-white focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">

@@ -39,7 +39,13 @@ const Contact = () => {
             style={{ filter: "opacity(0.7)" }}
             src="https://www.google.com/maps/d/u/0/embed?mid=1gF_WbX0vKfWx9YBgPUxD9cXUlrg&hl=en&ie=UTF8&msa=0&ll=7.514980999999993%2C13.051758000000014&spn=10.875883%2C10.964355&z=6&output=embed"
           />
-          <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md" style={{ marginLeft: "auto", marginRight: '0' }}>
+          <div
+            className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md"
+            style={{
+              marginLeft: "auto",
+              marginRight: '0'
+            }}
+          >
             <div className="lg:w-1/2 px-6">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 ADDRESS
@@ -65,14 +71,17 @@ const Contact = () => {
         </div>
         <form
           netlify="true"
+          method="post"
           name="contact"
           onSubmit={handleSubmit}
-          className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0" style={{ marginTop: "3%" }}>
+          className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0" style={{ marginTop: "3%" }}
+        >
+          <input type="hidden" name="form-name" value="contact" />
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
             Get In Touch
           </h2>
           <p className="leading-relaxed mb-5 text-white">
-           I'm always interested in new opportunities. If you need something built, Want to work together or simply want to chat, please send me an email at <a href="mailto:mazonkeu@gmail.com" style={{color: '#ddefaa'}}>mazonkeu@gmail.com</a> or simply fill out the form below.
+            I'm always interested in new opportunities. If you need something built, Want to work together or simply want to chat, please send me an email at <a href="mailto:mazonkeu@gmail.com" style={{color: '#ddefaa'}}>mazonkeu@gmail.com</a> or simply fill out the form below.
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-white">

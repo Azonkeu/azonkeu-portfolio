@@ -59,11 +59,13 @@ const Timeline = () => {
   margin: 0.4rem auto 6rem auto;
 `;
   return (
-	<div className="container" style={{ backgroundColor: "#0a192f", padding: '4%', maxWidth: '100%'}}>
-	  <SectionTitle style={{ marginLeft: 'auto', marginRight: 'auto', paddingTop: '6%'}}>Experience</SectionTitle>
-	 <Divider />
-	 <Section id="about">
-    <CarouselContainer ref={carouselRef} onScroll={handleScroll} className="container lg:flex-row md:flex-row flex flex-col text-white text-center w-full items-center">
+	  <div className="container" style={{ backgroundColor: "#0a192f", padding: '4%', maxWidth: '100%'}}>
+	    <SectionTitle style={{ marginLeft: 'auto', marginRight: 'auto', paddingTop: '6%'}}>
+        Experience
+      </SectionTitle>
+	    <Divider />
+	    <Section id="about">
+      <CarouselContainer ref={carouselRef} onScroll={handleScroll} className="container lg:flex-row md:flex-row flex flex-col text-white text-center w-full items-center">
         <>
           {TimeLineData.map((item, index) => (
             <CarouselMobileScrollNode
@@ -75,7 +77,7 @@ const Timeline = () => {
                 id={`carousel__item-${index}`}
                 active={activeItem}
                 onClick={(e) => handleClick(e, index)}
-				className="mt-4 w-full mr-0"
+                className="mt-4 w-full mr-0"
               >
                 <CarouselItemTitle>
                   {`${item.year}`}

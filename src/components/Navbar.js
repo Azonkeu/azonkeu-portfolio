@@ -39,6 +39,9 @@ const Navbar = () => {
           <a href="#testimonials" className="mr-5 md:ml-5 hover:text-white">
             Testimonials
           </a>
+          <a href="https://www.twine.net/Ornela21" className="mr-5 md:ml-5 hover:text-white">
+            Twine
+          </a>
         </nav>
 		    <div className="inline-flex">
           <SocialIcons href="https://github.com/Azonkeu">

@@ -54,7 +54,7 @@ const About = () => {
               Work With Me
             </a>
             <a
-              href="http://www.keepandshare.com/doc19/view.php?id=38146&da=y" target="_blank"
+              href="https://www.keepandshare.com/doc19/38539/resume-updated-1-pdf-158k?da=y" target="_blank"
               className="ml-4 inline-flex text-white-600 bg-purple-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
               My Resume
             </a>

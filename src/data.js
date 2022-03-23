@@ -49,7 +49,7 @@ export const testimonials = [
   {
     quote:
       "Ornela Azonkeu is a talented and inspiring person. We have worked together on countless projects and have grown to like her work spirit and her dedication. She is ready to learn and also teach others. She is a mentor to many besides being a good programmer. Her communication skills are top-notch and relates amicably and professionally with anyone. She would be an amazing team member to have on any project.",
-    image: "https://media-exp1.licdn.com/dms/image/D4E35AQFtKjmT0ngphA/profile-framedphoto-shrink_200_200/0/1643386476562?e=1644325200&v=beta&t=4Y3XNQNR19u71NqFzwLCI3XLQqyZ5foX0f11kfMcjuw",
+    image: "https://avatars.githubusercontent.com/u/85197908?v=4",
     name: "Affaxed Kiprotich",
     company: "Microverse",
     id: 0,
@@ -57,7 +57,7 @@ export const testimonials = [
   {
     quote:
       "Professional, excellent communicator, sincerely interested in the well being and growth of her colleagues; This is the Ornela Azonkeu that I have grown to know through her stellar mentorship at Microverse, an international remote school that teaches software engineering through peer-programming and project based learning. Going above and beyond what is required as a mentor in Software Development, is innately ingrained in her fabric. Any team privileged to have Ornela as a member is certain to prosper and benefit from her depth of knowledge in Software Engineering industry best practices.",
-    image: "https://media-exp1.licdn.com/dms/image/C5603AQE8KwlWPMRdpQ/profile-displayphoto-shrink_200_200/0/1634327872772?e=1649894400&v=beta&t=9ZgPF_daVZOYw9LbL-JdaMjUMMKuS6DJ0hzK-0PonKk",
+    image: "https://avatars.githubusercontent.com/u/81635839?v=4",
     name: "Steve W Dames Jr",
     company: "Microverse",
     id: 1,

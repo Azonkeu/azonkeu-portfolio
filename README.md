@@ -6,7 +6,7 @@ This is my portfolio website. It showcases some of the projects I have worked on
 
 ## Live Demo
 
-Click on this link to look at the live version of the [portfolio](https://app.netlify.com/sites/xenodochial-tereshkova-1ccbde).
+Click on this link to look at the live version of the [portfolio](https://xenodochial-tereshkova-1ccbde.netlify.app/).
 
 ### Built With
 

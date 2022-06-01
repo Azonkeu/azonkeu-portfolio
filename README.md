@@ -2,11 +2,11 @@
 
 ## My portfolio 
 
-This is my portfolio website. It showcases the most important projects I have worked on. Users can contact me easily through this website.
+This is my portfolio website. It showcases some of the projects I have worked on. Users can contact me easily through this website.
 
 ## Live Demo
 
-Click on this link to look at the live version of the [portfolio](https://azonkeudev.tk/).
+Click on this link to look at the live version of the [portfolio](https://app.netlify.com/sites/xenodochial-tereshkova-1ccbde).
 
 ### Built With
 
